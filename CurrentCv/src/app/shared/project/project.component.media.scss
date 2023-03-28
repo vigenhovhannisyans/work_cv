@@ -1,0 +1,11 @@
+@import '../../../assets/variables/color.scss';
+.projects{
+    @media screen and (max-width: 664px) {
+    &__content{
+        display: none;
+    }
+    &__mobile{
+        display: block;
+    }
+    }
+}

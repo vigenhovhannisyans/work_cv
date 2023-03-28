@@ -1,1 +1,126 @@
-<p>project works!</p>
+<div *ngIf="projects" class="projects">
+    <span class="projects__label">// PROJECTS</span>
+    
+    <div *ngFor="let project of projects" class="projects__content">
+        <span class="projects__content__name">
+            <span class="projects__content__name-title">
+                {{project.name}}
+            </span>
+            <span class="projects__content__name-years">
+                ({{project.start_date | date:'YYYY'}} - <span *ngIf="project.end_date; else currentTime">{{project.end_date | date:'YYYY'}}</span>)
+            </span>
+        </span>
+
+        <table class="projects__content__table">
+
+            <tr class="projects__content__table-tr">
+                <td class="projects__content__table-tr-td first">
+                    <span class="projects__content__table-tr-td-label">Customer</span>
+                </td>
+                <td class="projects__content__table-tr-td">
+                    <p class="projects__content__table-tr-td-text">
+                        {{project.customer}}
+                    </p>
+                </td>
+            </tr>
+
+            <tr class="projects__content__table-tr">
+                <td class="projects__content__table-tr-td first">
+                    <span class="projects__content__table-tr-td-label">Description</span>
+                </td>
+                <td class="projects__content__table-tr-td">
+                    <p class="projects__content__table-tr-td-text">
+                        {{project.description}}
+                    </p>
+                </td>
+            </tr>
+
+            <tr class="projects__content__table-tr">
+                <td class="projects__content__table-tr-td first">
+                    <span class="projects__content__table-tr-td-label">Team size</span>
+                </td>
+                <td class="projects__content__table-tr-td">
+                    <p class="projects__content__table-tr-td-text">{{project.team_size}}</p>
+                </td>
+            </tr>
+
+            <tr class="projects__content__table-tr">
+                <td class="projects__content__table-tr-td first">
+                    <span class="projects__content__table-tr-td-label">My position</span>
+                </td>
+                <td class="projects__content__table-tr-td">
+                    <p class="projects__content__table-tr-td-text">{{project.position}}</p>
+                </td>
+            </tr>
+
+            <tr class="projects__content__table-tr">
+                <td class="projects__content__table-tr-td first">
+                    <span class="projects__content__table-tr-td-label">My responsibilities</span>
+                </td>
+                <td class="projects__content__table-tr-td">
+                    <p class="projects__content__table-tr-td-text">{{project.responsibility}}</p>
+                </td>
+            </tr>
+
+            <tr class="projects__content__table-tr">
+                <td class="projects__content__table-tr-td first">
+                    <span class="projects__content__table-tr-td-label">Technologies used</span>
+                </td>
+                <td class="projects__content__table-tr-td">
+                    <p class="projects__content__table-tr-td-text">
+                        <span class="projects__content__table-tr-td-text-item" *ngFor="let tech of project.technologies">{{tech}}</span>
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="projects__mobile">
+        <div *ngFor="let project of projects" class="projects__mobile__project">
+            <span class="projects__mobile__project__top">
+                <span class="projects__mobile__project__top-title">{{project.name}}</span>
+                <span class="projects__mobile__project__top-year">
+                    ({{project.start_date | date:'YYYY'}} - <span *ngIf="project.end_date; else currentTime">{{project.end_date | date:'YYYY'}}</span>)
+                </span>
+            </span>
+            <div class="projects__mobile__project__body">
+                <div class="projects__mobile__project__body__items">
+                   <span class="projects__mobile__project__body__items-category">Customer</span>
+                   <span class="projects__mobile__project__body__items-customer">{{project.customer}}</span>
+                </div>
+
+                <div class="projects__mobile__project__body__items">
+                   <span class="projects__mobile__project__body__items-category">Description</span>
+                   <span class="projects__mobile__project__body__items-customer">{{project.description}}</span>
+                </div>
+
+                <div class="projects__mobile__project__body__items">
+                   <span class="projects__mobile__project__body__items-category">Team size</span>
+                   <span class="projects__mobile__project__body__items-customer">{{project.team_size}}</span>
+                </div>
+
+                <div class="projects__mobile__project__body__items">
+                   <span class="projects__mobile__project__body__items-category">My position</span>
+                   <span class="projects__mobile__project__body__items-customer">{{project.position}}</span>
+                </div>
+
+                <div class="projects__mobile__project__body__items">
+                   <span class="projects__mobile__project__body__items-category">My responsibilities</span>
+                   <span class="projects__mobile__project__body__items-customer">{{project.responsibility}}</span>
+                </div>
+
+                <div class="projects__mobile__project__body__items">
+                   <span class="projects__mobile__project__body__items-category">Technologies used</span>
+                   <span class="projects__mobile__project__body__items-customer">
+                    <span class="projects__mobile__project__body__items-customer-item" *ngFor="let tech of project.technologies">{{tech}}</span>
+                   </span>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+<ng-template #currentTime>
+    <span>current</span>
+</ng-template>

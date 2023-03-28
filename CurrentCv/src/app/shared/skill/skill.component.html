@@ -1,1 +1,7 @@
-<p>skill works!</p>
+<div class="skills">
+    <span class="skills__label">// SKILLS</span>
+    <div *ngFor="let skill of skills" class="skills__skill">
+        <span class="skills__skill-title">{{skill.skill}}</span>
+        <div [ngStyle]="{'width': skill.percent+'%'}" class="skills__skill-rate"></div>
+    </div>
+</div>

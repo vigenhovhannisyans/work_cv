@@ -1,0 +1,127 @@
+@import '../../../assets/variables/color.scss';
+.projects{
+    &__label{
+        color: $gray;
+        font-size: 20px;
+        font-weight: 600;
+        letter-spacing: 3px;
+    }
+    &__content{
+        margin-bottom: 20px;
+        &__name{
+            &-title{
+                font-weight: 600;
+                color: $pink;
+                letter-spacing: 3px;
+                font-size: 20px;
+            }
+            &-years{
+                color: $white;
+                letter-spacing: 4px;
+                font-size: 15px;
+                font-weight: 600;
+                display: inline-block;
+                margin-left: 15px;
+            }
+        }
+        &__table{
+            margin-top: 15px;
+            width: 100%;
+            &-tr{
+                &-td{
+                    border-top: 1px dashed $gray;
+                    border-bottom: 1px dashed $gray;
+                    padding: 5px 10px;
+                    &.first{
+                        border-right: 1px dashed $gray;
+                        width: 250px;
+                    }
+                    &-label{
+                        color: $blue;
+                        font-size: 18px;
+                        font-weight: 600;
+                        letter-spacing: 3px;
+                    }
+                    &-text{
+                        color: $white;
+                        font-size: 16px;
+                        font-weight: 600;
+                        letter-spacing: 3px;
+                        margin-bottom: 0;
+                        &-item{
+                            &::after{
+                                margin: 0 5px;
+                                content: '/';
+                            }
+                            &:last-child{
+                                &::after{
+                                    display: none;
+                                }
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+    &__mobile{
+        display: none;
+        &__project{
+            margin-bottom: 15px;
+            &__top{
+                display: block;
+                text-align: center;
+                margin-bottom: 15px;
+            &-title{
+                font-weight: 600;
+                color: $pink;
+                letter-spacing: 3px;
+                font-size: 20px;
+            }
+            &-year{
+                color: $white;
+                letter-spacing: 4px;
+                font-size: 15px;
+                font-weight: 600;
+                display: inline-block;
+                margin-left: 15px;
+            }
+            }
+            &__body{
+                padding: 10px;
+                border-top: 2px dashed $gray;
+                border-bottom: 2px dashed $gray;
+                &__items{
+                    display: flex;
+                    flex-direction: column;
+                    margin-bottom: 15px;
+                    &-category{
+                        color: $blue;
+                        font-weight: 600;
+                        font-size: 18px;
+                        letter-spacing: 3px;
+                    }
+                    &-customer{
+                        color: $white;
+                        font-weight: 600;
+                        font-size: 15px;
+                        letter-spacing: 3px;
+                        word-break: break-all;
+                        &-item{
+                            &::after{
+                                margin: 0 5px;
+                                content: '/';
+                            }
+                            &:last-child{
+                                &::after{
+                                    display: none;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
