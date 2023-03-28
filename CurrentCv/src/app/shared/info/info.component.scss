@@ -1,0 +1,69 @@
+@import '../../../assets/variables/color.scss';
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    &__left{
+        display: flex;
+        align-items: center;
+        &-img{
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 2px solid white;
+        }
+        &__name_role{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin-left: 40px;
+            &-name{
+                color: $green;
+                font-weight: 600;
+                font-size: 30px;
+                letter-spacing: 5px;
+            }
+            &-role{
+                color: $white;
+                font-weight: 600;
+                font-size: 22px;
+                letter-spacing: 5px;
+            }
+            &-link{
+                display: none;
+                margin-top: 10px;
+                &__social{
+                    margin-right: 10px;
+                    filter: invert(1) brightness(0.8);
+                    &:last-child{
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+    }
+    &__right{
+        &.mobile{
+            display: none;
+        }
+        &__location{
+            padding: 0;
+            margin: 0;
+            list-style-type: none;
+            &-item{
+                text-align: right;
+                color: $white;
+                font-weight: 600;
+                font-size: 17px;
+                letter-spacing: 2px;
+                &-link{
+                    color: $white;
+                }
+                &.email{
+                    display: none;
+                }
+            }
+        }
+    }
+}

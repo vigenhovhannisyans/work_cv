@@ -1,0 +1,170 @@
+@import '../../../assets/variables/color.scss';
+.info{
+@media screen and (max-width: 991px){
+        &__left{
+            display: flex;
+            align-items: center;
+            &-img{
+                width: 120px;
+                height: 120px;
+            }
+            &__name_role{
+                margin-left: 30px;
+                &-name{
+                    font-size: 23px;
+                }
+                &-role{
+                    font-weight: 600;
+                    font-size: 17px;
+                }
+            }
+        }
+        &__right{
+            &__location{
+                &-item{
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+
+
+@media screen and (max-width: 767px){
+        &__left{
+            align-items: flex-start;
+            flex-direction: column;
+            width: 49%;
+            &-img{
+                width: 120px;
+                height: 120px;
+            }
+            &__name_role{
+                margin-left: 0px;
+            }
+        }
+        &__right{
+            width: 49%;
+            &__location{
+                &-item{
+                    margin-bottom: 9px;
+                }
+            }
+        }
+    }
+
+@media screen and (max-width: 664px){
+    flex-direction: column-reverse;
+        &__left{
+            width: 100%;
+            align-items: center;
+            &-img{
+                width: 120px;
+                height: 120px;
+            }
+            &__name_role{
+                margin-left: 0px;
+                align-items: center;
+            }
+        }
+        &__right{
+            &.mobile{
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                flex-direction: row-reverse;
+                align-items: center;
+                margin-bottom: 25px;
+            }
+            
+            &.web{
+                display: none;
+            }
+            &__location{
+                margin-right: 10px;
+                &-item{
+                    margin-bottom: 9px;
+                    text-align: left;
+                &.contact{
+                    text-align: right;    
+                }
+            }
+        }
+    }
+    }
+
+@media screen and (max-width: 474px){
+    flex-direction: column-reverse;
+        &__left{
+            width: 100%;
+            align-items: center;
+            &-img{
+                width: 120px;
+                height: 120px;
+            }
+            &__name_role{
+                margin-left: 0px;
+                align-items: center;
+                &-link{
+                    display: block;
+                }
+            }
+        }
+        &__right{
+            &__location{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                width: 100%;
+                margin: 0;
+                flex-wrap: wrap;
+                &.links{
+                    display: none;
+                }
+                &-item{
+                    margin-bottom: 9px;
+                    text-align: left;
+                    &.email{
+                        display: block;
+                        width: 100%;
+                        text-align: center !important;
+                    }
+                &.contact{
+                    text-align: right;    
+                }
+            }
+        }
+    }
+    }
+
+@media screen and (max-width: 418px){
+    flex-direction: column-reverse;
+        &__left{
+            width: 100%;
+            align-items: center;
+            &-img{
+                width: 120px;
+                height: 120px;
+            }
+            &__name_role{
+                margin-left: 0px;
+                align-items: center;
+                &-link{
+                    display: block;
+                }
+            }
+        }
+        &__right{
+            &__location{
+                justify-content: center;
+                &-item{
+                &.contact{
+                    text-align: right;
+                    &:first-child{
+                        margin-right: 20px;
+                    }    
+                }
+            }
+        }
+    }
+    }
+}

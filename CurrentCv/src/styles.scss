@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+@import '~bootstrap/scss/bootstrap';
+@import '../src/assets/variables/color.scss';
+body {
+    background-color: $background;
+    font-family: 'Kanit', sans-serif;
+}
+
+@media screen and (max-width: 991px) {
+    .container{
+        max-width: 94%;
+    }
+}
+/* Importing Bootstrap SCSS file. */
