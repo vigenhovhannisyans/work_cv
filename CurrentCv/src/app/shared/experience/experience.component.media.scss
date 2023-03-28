@@ -1,19 +1,14 @@
 @import '../../../assets/variables/color.scss';
+
 .experience{
-    &__label{
-        color: $gray;
-        font-size: 20px;
-        font-weight: 600;
-        letter-spacing: 3px;
-    }
+    @media screen and (max-width: 664px){
     &__content{
-        display: flex;
-        align-items: flex-start;
-        margin-bottom: 5px;
+        flex-direction: column;
+        border-bottom: 2px dashed $gray;
+        margin-bottom: 20px;
         &__left{
             display: flex;
             flex-direction: column;
-            min-width: 200px;
             &-name{
                 color: $pink;
                 font-weight: 600;
@@ -29,9 +24,7 @@
             }
         }
         &__right{
-            margin-left: 90px;
-            width: 100%;
-
+            margin: 10px 0 20px;
             &-role{
                 color: $blue;
                 font-weight: 600;
@@ -51,4 +44,5 @@
             }
         }
     }
+}
 }

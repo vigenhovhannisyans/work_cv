@@ -1,0 +1,16 @@
+@import '../../../assets/variables/color.scss';
+.summary{
+    &__label{
+        color: $gray;
+        font-size: 20px;
+        font-weight: 600;
+        letter-spacing: 3px;
+    }
+    &__text{
+        color: $white;
+        font-size: 17px;
+        font-weight: 600;
+        letter-spacing: 3px;
+        margin-bottom: 0;
+    }
+}
