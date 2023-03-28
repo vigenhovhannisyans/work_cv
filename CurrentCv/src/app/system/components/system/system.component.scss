@@ -18,4 +18,22 @@
             width: 50%;
         }
     }
+    .loader{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        ::ng-deep{
+            .spinner-border{
+                width: 100px;
+                height: 100px;
+                --bs-spinner-vertical-align: -0.125em;
+                --bs-spinner-border-width: 0.25em;
+                --bs-spinner-animation-speed: 0.75s;
+                --bs-spinner-animation-name: spinner-border;
+                border: var(--bs-spinner-border-width) solid white;
+                border-right-color: transparent;
+            }
+        }
+    }
 }

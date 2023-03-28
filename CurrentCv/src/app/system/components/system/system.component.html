@@ -1,6 +1,5 @@
 <div class="system">
-    <div class="container">
-
+    <div *ngIf="userData; else loader" class="container">
     
     <div class="system__info">
         <cv-info [userInfo]="userData"></cv-info>
@@ -31,3 +30,12 @@
     </div>
     </div>
 </div>
+<ng-template #loader>
+    <div class="loader">
+        <div class="d-flex justify-content-center">
+            <div class="spinner-border" role="status">
+              <span class="sr-only">Loading...</span>
+            </div>
+          </div>
+    </div>
+</ng-template>
