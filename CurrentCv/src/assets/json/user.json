@@ -1,0 +1,148 @@
+{
+    "data": {
+        "name": "Vigen",
+        "surname": "Hovhannisyan",
+        "headline": "Front End Developer",
+        "date_of_birth": "18.02.2000",
+        "location": "Armenia Gyumri",
+        "phone": "+374(93)098-092",
+        "image": "../../../assets/images/photo.jpg",
+        "email": "vigenhovhannisian@gmail.com",
+        "linkedin": "https://www.linkedin.com/in/vigen-hovhannisyans",
+        "github": "https://github.com/vigenhovhannisyans",
+        "summary": "Web Developer specializing in Front End development. Experienced with all stages of the development cycle for dynamic web projects",
+        "experiences": [
+            {
+                "company": "BrainFors",
+                "start_date": "09.01.2021",
+                "role": "Angular Developer",
+                "responsibility": ["Adding functionality to a ready-made page.", "Writing Unit tests.", "Creating web pages."]
+            },
+            {
+                "company": "Upwork",
+                "start_date": "02.02.2022",
+                "role": "Front End Developer",
+                "responsibility": ["Creating web pages"]
+            }
+        ],
+        "projects": [
+            {
+                "name": "Belleza Lotus",
+                "customer": "Spanish customer",
+                "description": "I'm developping a full-stack program with which the user can find spa services, see prices, reserve an hour and leave a review.",
+                "team_size": 1,
+                "position": "Angular / NestJs Developer",
+                "responsibility": "Creating Frontend and Backend functionalities",
+                "technologies":["Angular","TypeScript","Rxjs","NestJs","Jasmine (UnitTesting)"],
+                "start_date": "01.01.2023"
+              },
+              {
+                "name": "Upstart",
+                "customer": "American customer",
+                "description": "We have created a program in which the client can find a course and then buy it, if the client has bought it, then he can watch videos, articles and quizzes related to this course, if he has completed his course and passed all the lessons, he can download his certificate.",
+                "team_size": 7,
+                "position": "Angular Developer",
+                "responsibility": "Adding functionality to a ready-made page.",
+                "technologies":["Angular","TypeScript","Rxjs"],
+                "start_date": "02.02.2022",
+                "end_date": "02.02.2022"
+              },
+              {
+                "name": "French delivery",
+                "customer": "French customer",
+                "description": "Participated in a project in which users will be able to monitor their order. and the seller will find out the status of the goods paid or not.",
+                "team_size": 5,
+                "position": "Angular Developer",
+                "responsibility": "Adding functionality to a ready-made page and writing Unit tests",
+                "technologies":["Angular","TypeScript","Rxjs","NestJs","Jasmine (UnitTesting)"],
+                "start_date": "02.02.2022",
+                "end_date": "02.02.2022"
+              },
+              {
+                "name": "Citizenship",
+                "customer": "Russian customer",
+                "description": "I have created pages through which users could write their information and submit it for citizenship.",
+                "team_size": 2,
+                "position": "Front End developer",
+                "responsibility": "Creating Web pages.",
+                "technologies":["HTML","CSS","JavaScript"],
+                "start_date": "02.02.2022",
+                "end_date": "02.02.2022"
+              },
+              {
+                "name": "Gift Guru",
+                "customer": "American customer",
+                "description": "We have created a program with which the user can organize an event, call his friends and mark what he wants, a gift, money, etc.",
+                "team_size": 7,
+                "position": "Angular Developer",
+                "responsibility": "Making some corrections to the finished page, adding new functionality and writing unit tests.",
+                "technologies": ["Angular","TypeScript","Rxjs","NestJs","Jasmine (UnitTesting)"],
+                "start_date": "02.02.2022",
+                "end_date": "02.02.2022"
+              },
+              {
+                "name": "New City",
+                "customer": "Armenian customer",
+                "description": "Participated in a program in which customer can buy an apartment, before buying a client can choose an apartment that he likes, if he has found his apartment, then he can buy it online.",
+                "team_size": 5,
+                "position": "Front End developer",
+                "responsibility": "Creating Web pages.",
+                "technologies":["HTML","CSS","JavaScript"],
+                "start_date": "02.02.2022",
+                "end_date": "02.02.2022"
+              }
+        ],
+        "educations": [
+            {
+                "start_date": "09.01.2017",
+                "end_date": "05.25.2021",
+                "title": "Armenian National Polytechnic University",
+                "role": "Information Technologies"
+            }
+        ],
+        "skills": [
+            {
+                "skill": "Angular",
+                "percent": 100
+              },
+              {
+                "skill": "TypeScript",
+                "percent": 100
+              },
+              {
+                "skill": "RxJs",
+                "percent": 80
+              },
+              {
+                "skill": "SCSS",
+                "percent": 100
+              },
+              {
+                "skill": "GIT",
+                "percent": 100
+              },
+              {
+                "skill": "Unit Test (Jasmine)",
+                "percent": 60
+              },
+              {
+                "skill": "NodeJS / NestJS",
+                "percent": 40
+              }
+        ],
+        "languages": [
+            {
+                "language": "Armenian",
+                "level": "Native"
+            },
+            {
+                "language": "Russian",
+                "level": "Fluent"
+            },
+            {
+                "language": "English",
+                "level": "A2"
+            }
+        ]
+    }
+}

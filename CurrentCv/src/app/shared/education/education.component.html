@@ -1,1 +1,15 @@
-<p>education works!</p>
+<div class="education">
+    <div class="education__label">// EDUCATION</div>
+    <div *ngFor="let education of educations" class="education__place">
+        <div class="education__place-date">
+            {{education.start_date | date: 'MMM YYYY'}} -
+            <span *ngIf="education.end_date; else current">{{education.end_date | date: 'MMM YYYY'}}</span>
+        </div>
+        <span class="education__place-title">{{education.title}}</span>
+        <span class="education__place-role">{{education.role}}</span>
+    </div>
+</div>
+
+<ng-template #current>
+    <span>Current</span>
+</ng-template>

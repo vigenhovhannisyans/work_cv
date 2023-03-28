@@ -1,15 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { ILanguage } from 'src/app/core/interface/language';
 
 @Component({
   selector: 'cv-language',
   templateUrl: './language.component.html',
   styleUrls: ['./language.component.scss']
 })
-export class LanguageComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+export class LanguageComponent {
+  @Input()
+  public languages: ILanguage[] = [];
 }

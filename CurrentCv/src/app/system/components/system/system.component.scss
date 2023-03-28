@@ -1,8 +1,21 @@
 .system{
+    padding-bottom: 100px;
     &__summary{
         margin-top: 50px;
     }
     &__experience{
         margin-top: 50px;
+    }
+    &__personal{
+        display: flex;
+        align-items: flex-start;
+        &-knowledge{
+            display: flex;
+            flex-direction: column;
+            margin-left: 90px;
+        }
+        &-skill{
+            width: 50%;
+        }
     }
 }

@@ -1,1 +1,9 @@
-<p>language works!</p>
+<div class="language">
+    <div class="language__label">// LANGUAGES</div>
+    <div *ngFor="let language of languages" class="language__languages">
+        <div class="language__languages-language">
+            <span>{{language.language}} - </span>
+            <span>{{language.level}}</span>
+        </div>
+    </div>
+</div>

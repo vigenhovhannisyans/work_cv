@@ -4,8 +4,8 @@ import { SystemComponent } from './components/system/system.component';
 
 const routes: Routes = [
   {
-    path: '', component: SystemComponent
-  }
+    path: '', component: SystemComponent,
+  },
 ];
 
 @NgModule({

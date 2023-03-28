@@ -8,8 +8,6 @@ import { LanguageComponent } from './language/language.component';
 import { SummaryComponent } from './summary/summary.component';
 import { InfoComponent } from './info/info.component';
 
-
-
 @NgModule({
   declarations: [
     ProjectComponent,

@@ -1,0 +1,19 @@
+@import '../../../assets/variables/color.scss';
+.language{
+    &__label{
+        color: $gray;
+        font-size: 20px;
+        font-weight: 600;
+        letter-spacing: 3px;
+        display: block;
+        margin-bottom: 5px;
+    }
+    &__languages{
+        &-language{
+            margin-bottom: 5px;
+            color: $white;
+            letter-spacing: 3px;
+            font-weight: 600;
+        }
+    }
+}

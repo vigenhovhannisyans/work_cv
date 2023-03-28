@@ -1,20 +1,33 @@
-<div class="system container">
+<div class="system">
+    <div class="container">
+
+    
     <div class="system__info">
-        <cv-info></cv-info>
+        <cv-info [userInfo]="userData"></cv-info>
     </div>
 
     <div class="system__summary">
-        <cv-summary></cv-summary>
+        <cv-summary [summary]="userData.summary"></cv-summary>
     </div>
 
     <div class="system__experience">
-        <cv-experience></cv-experience>
+        <cv-experience [experiences]="userData.experiences"></cv-experience>
     </div>
 
     <div class="system__project">
-        <cv-project></cv-project>
+        <cv-project [projects]="userData.projects"></cv-project>
     </div>
 
-    <cv-skill></cv-skill>
-    
+    <div class="system__personal">
+        <div class="system__personal-skill">
+            <cv-skill [skills]="userData.skills"></cv-skill>
+        </div>
+
+        <div class="system__personal-knowledge">
+            <cv-education [educations]="userData.educations"></cv-education>
+            <cv-language [languages]="userData.languages"></cv-language>
+        </div>
+
+    </div>
+    </div>
 </div>

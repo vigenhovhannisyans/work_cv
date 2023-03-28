@@ -2,6 +2,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
 @import '~bootstrap/scss/bootstrap';
 @import '../src/assets/variables/color.scss';
+
+/* width */
+::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    border-radius: 4px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: $blue_background;
+    background: linear-gradient($gradient);
+    border-radius: 4px;
+  }
+
 body {
     background-color: $background;
     font-family: 'Kanit', sans-serif;

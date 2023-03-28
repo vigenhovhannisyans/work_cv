@@ -1,0 +1,35 @@
+@import '../../../assets/variables/color.scss';
+
+.education{
+        &__label{
+        color: $gray;
+        font-size: 20px;
+        font-weight: 600;
+        letter-spacing: 3px;
+        display: block;
+        margin-bottom: 5px;
+    }
+    &__place{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        &-date{
+            font-weight: 600;
+            color: $white;
+            font-size: 18px;
+            letter-spacing: 3px;
+        }
+        &-title{
+            color: $pink;
+            font-size: 18px;
+            letter-spacing: 3px;
+            font-weight: 600;
+        }
+        &-role{
+            color: $blue;
+            font-size: 18px;
+            letter-spacing: 3px;
+            font-weight: 600;
+        }
+    }
+}
