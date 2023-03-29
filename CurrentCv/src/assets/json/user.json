@@ -14,13 +14,13 @@
         "experiences": [
             {
                 "company": "BrainFors",
-                "start_date": "09.01.2021",
+                "start_date": "Wed Sep 01 2021 00:00:00 GMT+0400",
                 "role": "Angular Developer",
                 "responsibility": ["Adding functionality to a ready-made page.", "Writing Unit tests.", "Creating web pages."]
             },
             {
                 "company": "Upwork",
-                "start_date": "02.02.2022",
+                "start_date": "Wed Sep 01 2022 00:00:00 GMT+0400",
                 "role": "Front End Developer",
                 "responsibility": ["Creating web pages"]
             }
@@ -34,7 +34,7 @@
                 "position": "Angular / NestJs Developer",
                 "responsibility": "Creating Frontend and Backend functionalities",
                 "technologies":["Angular","TypeScript","Rxjs","NestJs","Jasmine (UnitTesting)"],
-                "start_date": "01.01.2023"
+                "start_date": "Wed Sep 01 2023 00:00:00 GMT+0400"
               },
               {
                 "name": "Upstart",
@@ -44,8 +44,7 @@
                 "position": "Angular Developer",
                 "responsibility": "Adding functionality to a ready-made page.",
                 "technologies":["Angular","TypeScript","Rxjs"],
-                "start_date": "02.02.2022",
-                "end_date": "02.02.2022"
+                "start_date": "Wed Sep 01 2022 00:00:00 GMT+0400"
               },
               {
                 "name": "French delivery",
@@ -55,8 +54,8 @@
                 "position": "Angular Developer",
                 "responsibility": "Adding functionality to a ready-made page and writing Unit tests",
                 "technologies":["Angular","TypeScript","Rxjs","NestJs","Jasmine (UnitTesting)"],
-                "start_date": "02.02.2022",
-                "end_date": "02.02.2022"
+                "start_date": "Wed Sep 01 2022 00:00:00 GMT+0400",
+                "end_date": "Wed Sep 01 2022 00:00:00 GMT+0400"
               },
               {
                 "name": "Citizenship",
@@ -66,8 +65,8 @@
                 "position": "Front End developer",
                 "responsibility": "Creating Web pages.",
                 "technologies":["HTML","CSS","JavaScript"],
-                "start_date": "02.02.2022",
-                "end_date": "02.02.2022"
+                "start_date": "Wed Sep 01 2022 00:00:00 GMT+0400",
+                "end_date": "Wed Sep 01 2022 00:00:00 GMT+0400"
               },
               {
                 "name": "Gift Guru",
@@ -77,8 +76,8 @@
                 "position": "Angular Developer",
                 "responsibility": "Making some corrections to the finished page, adding new functionality and writing unit tests.",
                 "technologies": ["Angular","TypeScript","Rxjs","NestJs","Jasmine (UnitTesting)"],
-                "start_date": "02.02.2022",
-                "end_date": "02.02.2022"
+                "start_date": "Wed Sep 01 2021 00:00:00 GMT+0400",
+                "end_date": "Wed Sep 01 2021 00:00:00 GMT+0400"
               },
               {
                 "name": "New City",
@@ -88,14 +87,14 @@
                 "position": "Front End developer",
                 "responsibility": "Creating Web pages.",
                 "technologies":["HTML","CSS","JavaScript"],
-                "start_date": "02.02.2022",
-                "end_date": "02.02.2022"
+                "start_date": "Wed Sep 01 2021 00:00:00 GMT+0400",
+                "end_date": "Wed Sep 01 2022 00:00:00 GMT+0400"
               }
         ],
         "educations": [
             {
-                "start_date": "09.01.2017",
-                "end_date": "05.25.2021",
+                "start_date": "Wed Sep 01 2017 00:00:00 GMT+0400",
+                "end_date": "Wed May 25 2022 00:00:00 GMT+0400",
                 "title": "Armenian National Polytechnic University",
                 "role": "Information Technologies"
             }
