@@ -15,6 +15,7 @@ export interface IUser {
     email: string;
     linkedin: string;
     github: string;
+    npm: string;
     summary: string;
     experiences: IExperience[];
     projects: IProject[];

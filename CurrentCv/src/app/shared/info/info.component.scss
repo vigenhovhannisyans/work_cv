@@ -41,6 +41,16 @@
                     &:last-child{
                         margin-right: 0;
                     }
+                    &.npm {
+                        filter: unset;
+
+                    }
+                    .social {
+                        &.npm {
+                                width: 45px;
+                            
+                        }
+                    }
                 }
             }
         }

@@ -167,4 +167,15 @@
         }
     }
     }
+
+    @media screen and (max-width: 402px){
+        &__left{
+            &__name_role{
+                &-role{
+                    text-align: center;
+                }
+            }
+        }
+
+    }
 }

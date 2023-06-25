@@ -11,6 +11,9 @@
                 <a class="info__left__name_role-link__social" target="_blank" href="https://github.com/vigenhovhannisyans">
                     <img class="social" src="../../../assets/images/github.svg" alt="">
                 </a>
+                <a class="info__left__name_role-link__social npm" target="_blank" href="https://www.npmjs.com/settings/vigenhovhannisian/packages">
+                    <img class="social npm" src="../../../assets/images/npm.svg" alt="">
+                </a>
             </div>
         </div>
     </div>
@@ -21,11 +24,15 @@
             <li class="info__right__location-item">{{userInfo.phone}}</li>
             <li class="info__right__location-item">{{userInfo.email}}</li>
             <li class="info__right__location-item">
+                <a class="info__right__location-item-link" target="_blank" [href]="userInfo.npm">https://npmjs.com/vigenhovhannisian</a>
+            </li>
+            <li class="info__right__location-item">
                <a class="info__right__location-item-link" target="_blank" [href]="userInfo.linkedin">https://www.linkedin.com/vigen</a> 
             </li>
             <li class="info__right__location-item">
                 <a class="info__right__location-item-link" target="_blank" [href]="userInfo.github">https://github.com/vigen</a>
             </li>
+
         </ul>
     </div>
 
@@ -38,6 +45,9 @@
 
         </ul>
         <ul class="info__right__location links">
+            <li class="info__right__location-item">
+                <a class="info__right__location-item-link" target="_blank" [href]="userInfo.npm">https://npmjs.com/vigen</a>
+            </li>
             <li class="info__right__location-item">
                 <a class="info__right__location-item-link" target="_blank" [href]="userInfo.github">https://github.com/vigen</a>
             </li>

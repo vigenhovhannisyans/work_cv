@@ -2,7 +2,7 @@
     "data": {
         "name": "Vigen",
         "surname": "Hovhannisyan",
-        "headline": "Front End Developer",
+        "headline": "Software Front End Developer",
         "date_of_birth": "18.02.2000",
         "location": "Armenia Gyumri",
         "phone": "+374(93)098-092",
@@ -10,11 +10,19 @@
         "email": "vigenhovhannisian@gmail.com",
         "linkedin": "https://www.linkedin.com/in/vigen-hovhannisyans",
         "github": "https://github.com/vigenhovhannisyans",
-        "summary": "Web Developer specializing in Front End development. Experienced with all stages of the development cycle for dynamic web projects",
+        "npm": "https://www.npmjs.com/settings/vigenhovhannisian/packages",
+        "summary": "As a Software Developer specializing in Front End development, I have extensive experience in all stages of the development cycle for dynamic web projects. With a focus on creating visually appealing and interactive user interfaces, I excel in utilizing HTML, CSS, and JavaScript to design and implement engaging web experiences. I am well-versed in collaborating with cross-functional teams to gather requirements, develop efficient code, and conduct thorough testing to ensure seamless functionality. With my expertise in Front End development, I am dedicated to delivering high-quality, user-centric web applications that enhance the overall user experience.",
         "experiences": [
+            {
+                "company": "Solicy",
+                "start_date": "Wed Sep 01 2023 00:00:00 GMT+0400",
+                "role": "Software Developer",
+                "responsibility": ["Adding functionality to a ready-made page.", "Writing Unit tests.", "Creating web pages."]
+            },
             {
                 "company": "BrainFors",
                 "start_date": "Wed Sep 01 2021 00:00:00 GMT+0400",
+                "end_date": "Wed Sep 01 2023 00:00:00 GMT+0400",
                 "role": "Angular Developer",
                 "responsibility": ["Adding functionality to a ready-made page.", "Writing Unit tests.", "Creating web pages."]
             },
@@ -26,6 +34,26 @@
             }
         ],
         "projects": [
+            {
+                "name": "Exgoland",
+                "customer": "Arabian customer",
+                "description": "We are developing a web program that enables users to buy, sell, and mint NFTs.",
+                "team_size": 8,
+                "position": "Full Stack Developer",
+                "responsibility": "Creating web pages with their functionalities and creating backend functionalities",
+                "technologies":["React","TypeScript","Node Js","TypeORM"],
+                "start_date": "Wed Sep 01 2023 00:00:00 GMT+0400"
+              },
+            {
+                "name": "Carlink",
+                "customer": "Korean customer",
+                "description": "We are developing a mobile application that allows users to find cars in Korea, view details, and make purchases or rental arrangements.",
+                "team_size": 3,
+                "position": "React Native Developer",
+                "responsibility": "Creating mobile screens and adding functionalities",
+                "technologies":["React Native","TypeScript"],
+                "start_date": "Wed Sep 01 2023 00:00:00 GMT+0400"
+              },
             {
                 "name": "Belleza Lotus",
                 "customer": "Spanish customer",
@@ -44,7 +72,8 @@
                 "position": "Angular Developer",
                 "responsibility": "Adding functionality to a ready-made page.",
                 "technologies":["Angular","TypeScript","Rxjs"],
-                "start_date": "Wed Sep 01 2022 00:00:00 GMT+0400"
+                "start_date": "Wed Sep 01 2022 00:00:00 GMT+0400",
+                "end_date": "Wed Sep 01 2023 00:00:00 GMT+0400"
               },
               {
                 "name": "French delivery",
@@ -107,6 +136,14 @@
               {
                 "skill": "TypeScript",
                 "percent": 100
+              },
+              {
+                "skill": "React Native",
+                "percent": 50
+              },
+              {
+                "skill": "React JS",
+                "percent": 60
               },
               {
                 "skill": "RxJs",
